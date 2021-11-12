@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="estilo.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="formulario.css">
+<script src="https://kit.fontawesome.com/d178b0e1c7.js" crossorigin="anonymous"></script>
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div id ="form">
+        <form action ="usuario" method="post">
+            <h2 class="title">Cadastro de Usuário.</h2>
+            <label for="Nome do Usuario"> Nome: </label>
+            <div class="input">
+                <i class="fas fa-user"></i>
+                <input id="Nome do Usuario" name= "Nome do Usuario"  placeholder="Nome do Usuario" Type="text">
+            </div>
+            <form action ="email" method="post">
+            <label for="email">E-mail: </label>
+            <div class ="input">
+                <i class="fas fa-at"></i>
+                <input id="email" name='email' placeholder="E-mail" type="text">
+            </div>
+            <label for="senha">Senha: </label>
+            <div class="input">
+                <i class="fas fa-user-lock"></i>
+                <input id="password" name="senha" placeholder="Password" type="password" method="post">
+            </div>
+            <div id="btn">
+                <button type="submit">Salvar</button>
+            </div>
+        </form>
+</body>
+</html>
